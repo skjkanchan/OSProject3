@@ -56,5 +56,8 @@ I am now ending this project session. During this session I was able to finish t
 a. I am now starting a new project session. I don't really have any new thoughts about the project, but I am almost done and hopefully I can finish during this session.
 b. This session I plan to finish the extract function, then re-read the project doc and re-watch the project overview video to make sure my project works as its supposed to and that any output matches what is shown in the video. 
 
+# May 11 3:51pm
+Updating the devlog because the extract function is now complete, so the contents of an index file can be extracted and written to a csv file.
+
 
 
