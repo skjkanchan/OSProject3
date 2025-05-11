@@ -5,3 +5,7 @@ b. This project session I plan to do some research on creating a command line pr
 # May 10 9:03pm
 a. I am continuing this project session. I decided to setup a main project3 file with a class and main function, and the command line arguments will be the commands. This way the program will run like the previous 2 projects. I also looked at the what the program is doing itself, which is using a B Tree for indexing. I understand this concept as I recently learned about this in Databases in addition to OS so logically I think I understand what it's doing.
 b. This project session I plan to write the code that takes in commands and sends the program to the corresponding function. 
+
+# May 10 9:44pm
+a. I am still in the same project session, but I have made more progress. My code is now able to accept a command from the commandline and go to the correspodning function to carry out the command. As far as the project itself, I have no new thoughts about it.
+b. This part of my project session, I plan to learn a little moe about how the index file works and write the code for the create command. I'm also a little confused on how the blocks work so I will look into that more as well. 
