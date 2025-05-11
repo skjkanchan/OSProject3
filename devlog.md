@@ -40,5 +40,8 @@ Updating the devlog because the create file function is complete, so now index f
 # May 11 1:31pm
 Updating the devlog because the insert function is complete, so now a key and value can be inserted into an index file.
 
+# May 11 1:49pm
+Updating the devlog because the search function is complete, so now the file can be searched for a specific key and the corresponding value is printed correctly. 
+
 
 
