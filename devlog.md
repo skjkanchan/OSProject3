@@ -65,5 +65,14 @@ I am basically done with my project, but I realized that for some reason only my
 # May 11 5:48pm
 I tried pushing again and it still didn't work so I checked my github and on there it has my old version of the file which is called project3.java from the very beginning which I changed to Project3.java so it matches my class name. I then tried staging "project3.java" for commit and i'm going to try pushing that to see if my changes update. 
 
+# May 11 5:52pm
+I pushed and it worked with "project3.java" even though on vscode my file is called "Project3.java". So now all my changes are in github. Now I'm going to continue editing my code so that the outputs match the ones in the project overview video.
+
+# May 11 6:12pm
+I am now running into an issue with insert because it's saying a key already exists when I insert into a new file. I'm looking into this right now. 
+
+# May 11 6:31pm
+I fixed the issue with insert, it was because my line currVal != 0=null was wrong since currVal is never null so I changed the null to -1 and it works. I also ended up changing some output and i'm still working on some.
+
 
 

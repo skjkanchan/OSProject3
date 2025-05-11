@@ -1,6 +1,5 @@
 
 import java.io.*;
-//import java.lang.classfile.components.ClassPrinter;
 import java.nio.*;
 import java.util.*;
 
@@ -11,7 +10,7 @@ public class Project3 {
     private static final int BLOCK_SIZE = 512;
     private static final String MAGIC_NUM = "4348PRJ3";
     private static final int MIN_DEG = 10;
-    private static final int MAX_KEYS = 2*(MIN_DEG - 1);
+    private static final int MAX_KEYS = 2 * MIN_DEG - 1;
     private static final int MAX_CHILDREN = MAX_KEYS + 1;
 
 
@@ -213,7 +212,7 @@ public class Project3 {
             }
 
             //write children
-            for (int i = 0; i < MAX_KEYS; i++) {
+            for (int i = 0; i < MAX_CHILDREN; i++) {
                 buffer.putLong(children[i]);
             }
 
@@ -249,7 +248,7 @@ public class Project3 {
             }
 
             //read children
-            for (int i = 0; i < MAX_KEYS; i++) {
+            for (int i = 0; i < MAX_CHILDREN; i++) {
                 node.children[i] = buffer.getLong();
             }
 
@@ -267,26 +266,17 @@ public class Project3 {
         //store 3 nodes in memory at once
         private Map<Long, Node> nodeCache;
         private final int MAX_CACHE_SIZE = 3;
+        private Queue<Long> cacheOrder;
 
         public BTree(String filename) throws IOException {
             //create a file with the filename
             this.file = new RandomAccessFile(filename, "rw");
+            
             //create node cache
-            this.nodeCache = new LinkedHashMap<Long, Node>(MAX_CACHE_SIZE + 1, 0.75f, true) {
-                @Override
-                protected boolean removeEldestEntry(Map.Entry<Long, Node> eldest) {
-                    boolean shouldRemove = size() > MAX_CACHE_SIZE;
-                    if (shouldRemove) {
-                        try {
-                            //write node to disk before removing from cache
-                            writeNode(eldest.getValue());
-                        } catch (IOException e) {
-                            e.printStackTrace();
-                        }
-                    }
-                    return shouldRemove;
-                }
-            };
+            this.nodeCache = new HashMap<>();
+
+            //create queue to track order nodes are inserted
+            this.cacheOrder = new LinkedList<>();
 
             //read header
             if (file.length() >= BLOCK_SIZE) {
@@ -299,6 +289,28 @@ public class Project3 {
                 writeHeader();
             }
 
+            
+
+        }
+
+        private void addToCache(Node node) throws IOException {
+            //if cache is full remove oldest entry
+            if (nodeCache.size() >= MAX_CACHE_SIZE) {
+                //get oldest node's ID from queue
+                Long oldestNodeID = cacheOrder.poll();
+                if (oldestNodeID != null) {
+                    //write the node to disk before removing from cache
+                    writeNode(nodeCache.get(oldestNodeID));
+                    nodeCache.remove(oldestNodeID);
+                }
+                
+            }
+
+            //add new node to cache
+            nodeCache.put(node.blockID, node);
+
+            //add id to queue
+            cacheOrder.add(node.blockID);
         }
 
         public void close() throws IOException {
@@ -310,6 +322,12 @@ public class Project3 {
                 Node currNode = cacheNodes[i];
                 writeNode(currNode);
             } 
+
+            //write header to disk
+            writeHeader();
+
+            //close file
+            file.close();
         }
 
         private void writeHeader() throws IOException {
@@ -339,7 +357,7 @@ public class Project3 {
             Node node = Node.fromByte(buffer);
 
             //add node to cache
-            nodeCache.put(blockID, node);
+            addToCache(node);
 
             return node;
 
@@ -652,7 +670,7 @@ public class Project3 {
 
             //check if key already exists
             Long currVal = btree.search(key);
-            if (currVal != null) {
+            if (currVal != -1) {
                 //print statement and skip this value
                 System.out.println("Key " + key + " already exists.");
             } else {
@@ -730,7 +748,7 @@ public class Project3 {
 
                             //check if key already exists
                             Long currVal = btree.search(key);
-                            if (currVal != null) {
+                            if (currVal != -1) {
                                 //print statement and skip this value
                                 System.out.println("Key " + key + " already exists.");
                             } else {
