@@ -37,5 +37,8 @@ b. For the next part of the project session, I plan to work on the command funct
 # May 11 1:21pm
 Updating the devlog because the create file function is complete, so now index file/BTree can be created from the command line.
 
+# May 11 1:31pm
+Updating the devlog because the insert function is complete, so now a key and value can be inserted into an index file.
+
 
 
