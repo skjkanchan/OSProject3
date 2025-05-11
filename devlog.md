@@ -74,5 +74,7 @@ I am now running into an issue with insert because it's saying a key already exi
 # May 11 6:31pm
 I fixed the issue with insert, it was because my line currVal != 0=null was wrong since currVal is never null so I changed the null to -1 and it works. I also ended up changing some output and i'm still working on some.
 
+# May 11 6:39pm
+I am now ending this project session. I think I am basically done with the project as all the output is normal, the hexdump seems to be correct, and all the functions/commands are working as they do in the project overview video. All I have left to do in the next project session is to complete the readme, clean up my files by deleting the unnecessary ones I generated while testing, and then turn in my project. 
 
 

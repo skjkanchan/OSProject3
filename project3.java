@@ -652,7 +652,7 @@ public class Project3 {
         BTree btree = new BTree(filename);
         btree.close();
 
-        System.out.println("Index file " + filename + " created successfully.");
+        //System.out.println("Index file " + filename + " created successfully.");
 
     }
 
@@ -675,7 +675,7 @@ public class Project3 {
                 System.out.println("Key " + key + " already exists.");
             } else {
                 btree.insert(key, val);
-                System.out.println("Key " + key + " with value " + val + " inserted successfully.");
+                //System.out.println("Key " + key + " with value " + val + " inserted successfully.");
             }
             
             btree.close();
@@ -766,7 +766,7 @@ public class Project3 {
             reader.close();
             btree.close();
 
-            System.out.println("Loaded " + count + " key/value pairs from " + csvFilename + " successfully.");
+            //System.out.println("Loaded " + count + " key/value pairs from " + csvFilename + " successfully.");
 
         } catch (IOException e) {
             System.out.println("Error: Invalid index file, CSV file, or I/O error.");
@@ -835,7 +835,7 @@ public class Project3 {
 
             writer.close();
 
-            System.out.println("Extracted " + records.size() + " key/value pairs from " + indexFilename + " to " + csvFilename + ".");
+            //System.out.println("Extracted " + records.size() + " key/value pairs from " + indexFilename + " to " + csvFilename + ".");
 
 
         } catch (IOException e) {
