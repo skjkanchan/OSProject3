@@ -18,3 +18,7 @@ a. I am finishing up this project session. I created the create command if state
 a. I am now starting a new project session. Since last time, I re-read the project 3 document and realized that an index file represents a B-Tree, so in order to finish my create function I need to create a class for a B-Tree. 
 b. This project session I plan on finishing the create function, and with that the B-Tree class and any other classes needed for the create command to work.
 
+# May 11 1:09am
+a. I am still in the same project session. I just finished the Header class which will be needed for the B-Tree. I'm understanding a little better how the B-Tree/Index file works.
+b. Now, I plan on finishing the B-Tree class.
+
