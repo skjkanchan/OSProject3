@@ -46,5 +46,11 @@ Updating the devlog because the search function is complete, so now the file can
 # May 11 2:02pm
 Updating the devlog because the load function is complete, so key/value pairs from a csv file can be inserted into an index file. 
 
+# May 11 2:41pm
+Updating the devlog because the print function is complete, so the contents of the index file can be printer. In order to do this, I also had to modify the B-Tree class by adding a few methods to get all the values in the tree.
+
+# May 11 2:43pm
+I am now ending this project session. During this session I was able to finish the functions for create, insert, search, load, and print. I also updated the B-Tree class with the necessary methods as needed by the functions like a get all records method for the print function. Next session I plan on finishing the project by doing the extract function and then watching over the project overview video again to make sure the smaller details r done and correct. 
+
 
 
