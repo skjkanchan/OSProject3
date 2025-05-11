@@ -22,3 +22,6 @@ b. This project session I plan on finishing the create function, and with that t
 a. I am still in the same project session. I just finished the Header class which will be needed for the B-Tree. I'm understanding a little better how the B-Tree/Index file works.
 b. Now, I plan on finishing the B-Tree class.
 
+# May 11 2:20am
+a. I am now ending this project session. I was able to create a header class for the index file as well as a node class. Inside the node class, I wrote toByte and fromByte methods to convert integers into 8-bit ints with big endian byte orders, and convert them back and put them in a Node. Next project section I can hopefully start on the B-Tree class itself now that I have a lot of its parts coded. 
+
