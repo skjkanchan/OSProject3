@@ -34,5 +34,8 @@ b. This project session I plan to finish the B-Tree class and use that to finish
 a. I am still in the same project session, but now I have made lots of progress on my B-Tree implementation. I created the B-Tree class and added some operations like insert and search. Now that my B-Tree is basically complete I can go on to work on the command functions.
 b. For the next part of the project session, I plan to work on the command functions, specifically create, insert, and search. 
 
+# May 11 1:21pm
+Updating the devlog because the create file function is complete, so now index file/BTree can be created from the command line.
+
 
 
