@@ -52,5 +52,9 @@ Updating the devlog because the print function is complete, so the contents of t
 # May 11 2:43pm
 I am now ending this project session. During this session I was able to finish the functions for create, insert, search, load, and print. I also updated the B-Tree class with the necessary methods as needed by the functions like a get all records method for the print function. Next session I plan on finishing the project by doing the extract function and then watching over the project overview video again to make sure the smaller details r done and correct. 
 
+# May 11 3:30pm 
+a. I am now starting a new project session. I don't really have any new thoughts about the project, but I am almost done and hopefully I can finish during this session.
+b. This session I plan to finish the extract function, then re-read the project doc and re-watch the project overview video to make sure my project works as its supposed to and that any output matches what is shown in the video. 
+
 
 
