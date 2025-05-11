@@ -8,4 +8,13 @@ b. This project session I plan to write the code that takes in commands and send
 
 # May 10 9:44pm
 a. I am still in the same project session, but I have made more progress. My code is now able to accept a command from the commandline and go to the correspodning function to carry out the command. As far as the project itself, I have no new thoughts about it.
-b. This part of my project session, I plan to learn a little moe about how the index file works and write the code for the create command. I'm also a little confused on how the blocks work so I will look into that more as well. 
+b. This part of my project session, I plan to learn a little more about how the index file works and write the code for the create command. I'm also a little confused on how the blocks work so I will look into that more as well. 
+
+
+# May 10 10:36pm
+a. I am finishing up this project session. I created the create command if statement and started on the create function. I also coded the function to print the usage menu. Next session I plan on making good progress on most if not all functions. 
+
+# May 11 12:28am
+a. I am now starting a new project session. Since last time, I re-read the project 3 document and realized that an index file represents a B-Tree, so in order to finish my create function I need to create a class for a B-Tree. 
+b. This project session I plan on finishing the create function, and with that the B-Tree class and any other classes needed for the create command to work.
+
