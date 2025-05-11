@@ -59,5 +59,11 @@ b. This session I plan to finish the extract function, then re-read the project 
 # May 11 3:51pm
 Updating the devlog because the extract function is now complete, so the contents of an index file can be extracted and written to a csv file.
 
+# May 11 5:43pm
+I am basically done with my project, but I realized that for some reason only my devlog.md has been pushing to github, but not my Project3.java so I'm going to try to push that to github right now and see if its working.
+
+# May 11 5:48pm
+I tried pushing again and it still didn't work so I checked my github and on there it has my old version of the file which is called project3.java from the very beginning which I changed to Project3.java so it matches my class name. I then tried staging "project3.java" for commit and i'm going to try pushing that to see if my changes update. 
+
 
 
