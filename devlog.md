@@ -5,10 +5,12 @@ b. This project session I plan to do some research on creating a command line pr
 
 # May 10 9:03pm
 a. I am continuing this project session. I decided to setup a main project3 file with a class and main function, and the command line arguments will be the commands. This way the program will run like the previous 2 projects. I also looked at the what the program is doing itself, which is using a B Tree for indexing. I understand this concept as I recently learned about this in Databases in addition to OS so logically I think I understand what it's doing.
+
 b. This project session I plan to write the code that takes in commands and sends the program to the corresponding function. 
 
 # May 10 9:44pm
 a. I am still in the same project session, but I have made more progress. My code is now able to accept a command from the commandline and go to the correspodning function to carry out the command. As far as the project itself, I have no new thoughts about it.
+
 b. This part of my project session, I plan to learn a little more about how the index file works and write the code for the create command. I'm also a little confused on how the blocks work so I will look into that more as well. 
 
 
@@ -17,10 +19,12 @@ a. I am finishing up this project session. I created the create command if state
 
 # May 11 12:28am
 a. I am now starting a new project session. Since last time, I re-read the project 3 document and realized that an index file represents a B-Tree, so in order to finish my create function I need to create a class for a B-Tree. 
+
 b. This project session I plan on finishing the create function, and with that the B-Tree class and any other classes needed for the create command to work.
 
 # May 11 1:09am
 a. I am still in the same project session. I just finished the Header class which will be needed for the B-Tree. I'm understanding a little better how the B-Tree/Index file works.
+
 b. Now, I plan on finishing the B-Tree class.
 
 # May 11 2:20am
@@ -28,11 +32,13 @@ a. I am now ending this project session. I was able to create a header class for
 
 # May 11 10:53am
 a. I am now starting a new project session. Going into this session, I now have a better understanding of how the file implemenattion works. I understand now the logic of creating a B-Tree when creating a file. This means I will need to finish the B-Tree implementation before I do the command functions because all B-Tree operations are necessary for those functions. Other than that I dont have any new thoughts.
+
 b. This project session I plan to finish the B-Tree class and use that to finish the create function. 
 
 
 # May 11 1:10pm
 a. I am still in the same project session, but now I have made lots of progress on my B-Tree implementation. I created the B-Tree class and added some operations like insert and search. Now that my B-Tree is basically complete I can go on to work on the command functions.
+
 b. For the next part of the project session, I plan to work on the command functions, specifically create, insert, and search. 
 
 # May 11 1:21pm
@@ -51,10 +57,11 @@ Updating the devlog because the load function is complete, so key/value pairs fr
 Updating the devlog because the print function is complete, so the contents of the index file can be printer. In order to do this, I also had to modify the B-Tree class by adding a few methods to get all the values in the tree.
 
 # May 11 2:43pm
-I am now ending this project session. During this session I was able to finish the functions for create, insert, search, load, and print. I also updated the B-Tree class with the necessary methods as needed by the functions like a get all records method for the print function. Next session I plan on finishing the project by doing the extract function and then watching over the project overview video again to make sure the smaller details r done and correct. 
+a. I am now ending this project session. During this session I was able to finish the functions for create, insert, search, load, and print. I also updated the B-Tree class with the necessary methods as needed by the functions like a get all records method for the print function. Next session I plan on finishing the project by doing the extract function and then watching over the project overview video again to make sure the smaller details r done and correct. 
 
 # May 11 3:30pm 
 a. I am now starting a new project session. I don't really have any new thoughts about the project, but I am almost done and hopefully I can finish during this session.
+
 b. This session I plan to finish the extract function, then re-read the project doc and re-watch the project overview video to make sure my project works as its supposed to and that any output matches what is shown in the video. 
 
 # May 11 3:51pm
@@ -76,13 +83,14 @@ I am now running into an issue with insert because it's saying a key already exi
 I fixed the issue with insert, it was because my line currVal != 0=null was wrong since currVal is never null so I changed the null to -1 and it works. I also ended up changing some output and i'm still working on some.
 
 # May 11 6:39pm
-I am now ending this project session. I think I am basically done with the project as all the output is normal, the hexdump seems to be correct, and all the functions/commands are working as they do in the project overview video. All I have left to do in the next project session is to complete the readme, clean up my files by deleting the unnecessary ones I generated while testing, and then turn in my project. 
+a. I am now ending this project session. I think I am basically done with the project as all the output is normal, the hexdump seems to be correct, and all the functions/commands are working as they do in the project overview video. All I have left to do in the next project session is to complete the readme, clean up my files by deleting the unnecessary ones I generated while testing, and then turn in my project. 
 
 # May 11 8:40pm
 a. I am now starting this project session. Since last session, I dont have any new thoughts about the project itself since I am basically done with it. Everything seemed to be working correctly. 
+
 b. This project session I plan on writing the read me and then submitting the project. 
 
 # May 11 9:44pm
-I am now ending this final project session. I finished my ReadMe and finished testing my program one more time and everything compiles and works as intended. I will now make a final commit and submit this project.
+a. I am now ending this final project session. I finished my ReadMe and finished testing my program one more time and everything compiles and works as intended. I will now make a final commit and submit this project.
 
 
