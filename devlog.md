@@ -77,4 +77,8 @@ I fixed the issue with insert, it was because my line currVal != 0=null was wron
 # May 11 6:39pm
 I am now ending this project session. I think I am basically done with the project as all the output is normal, the hexdump seems to be correct, and all the functions/commands are working as they do in the project overview video. All I have left to do in the next project session is to complete the readme, clean up my files by deleting the unnecessary ones I generated while testing, and then turn in my project. 
 
+# May 11 8:40pm
+a. I am now starting this project session. Since last session, I dont have any new thoughts about the project itself since I am basically done with it. Everything seemed to be working correctly. 
+b. This project session I plan on writing the read me and then submitting the project. 
+
 
