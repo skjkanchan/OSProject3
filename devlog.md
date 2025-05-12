@@ -81,4 +81,7 @@ I am now ending this project session. I think I am basically done with the proje
 a. I am now starting this project session. Since last session, I dont have any new thoughts about the project itself since I am basically done with it. Everything seemed to be working correctly. 
 b. This project session I plan on writing the read me and then submitting the project. 
 
+# May 11 9:44pm
+I am now ending this final project session. I finished my ReadMe and finished testing my program one more time and everything compiles and works as intended. I will now make a final commit and submit this project.
+
 
